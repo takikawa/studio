@@ -40,4 +40,11 @@ baseline01: spec
 				versionString: #'stable';
 				className: #ConfigurationOfMessagePack;
 				repository: 'http://smalltalkhub.com/mc/MasashiUmezawa/MessagePack/main'. ].
+
+		spec baseline: 'Tonel' with:
+			[ spec repository: 'github://pharo-vcs/tonel' ].
+
+		spec baseline: 'PetitParser2' with:
+			[ spec repository: 'github://kursjan/petitparser2' ].
+
 		].
